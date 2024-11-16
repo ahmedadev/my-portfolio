@@ -1,0 +1,152 @@
+{
+  "emmet.useInlineCompletions": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.fontSize": 16,
+  "indentRainbow.colors": ["rgba(26, 117, 159, 0.5)", "rgba(52, 160, 164,0.5)"],
+  "git.autofetch": true,
+  "editor.tabSize": 2,
+  "git.enableSmartCommit": true,
+  "editor.formatOnSave": true,
+  "javascript.preferences.renameMatchingJsxTags": true,
+  "typescript.preferences.renameMatchingJsxTags": true,
+  "editor.minimap.enabled": false,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "editor.linkedEditing": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "prettier.useEditorConfig": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.ignoreRebaseWarning": true,
+  "terminal.external.windowsExec": "C:\\cmder\\Cmder.exe",
+  "terminal.integrated.autoReplies": {},
+  "terminal.explorerKind": "external",
+  "update.mode": "none",
+
+  "explorer.confirmDelete": false,
+  "helium-icon-theme.folders.color": "#42a5f5",
+
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "files.autoSave": "afterDelay",
+  "workbench.sideBar.location": "right",
+  "window.customTitleBarVisibility": "windowed",
+  "workbench.layoutControl.enabled": false,
+  "editor.rulers": [80],
+  "editor.wordBasedSuggestions": "allDocuments",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "editor.stickyScroll.enabled": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": false
+  },
+  "settingsSync.ignoredSettings": [],
+  "prettier.bracketSpacing": false,
+  "simpleBrowser.focusLockIndicator.enabled": false,
+  "editor.insertSpaces": false,
+  // JavaScript & TypeScript Formatting
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+  // HTML Formatting
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": false
+  },
+  // CSS Formatting
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": false
+  },
+  // Markdown Formatting
+  "[markdown]": {
+    "editor.defaultFormatter": "vscode.markdown-language-features",
+    "editor.formatOnSave": true
+  },
+
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/Administrator/Desktop/style.css"
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "javascriptreact": "javascript",
+    "typescriptreact": "typescript"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["className=\"([^\"]*)\"", "tw`([^`]*)`"],
+    ["class=\"([^\"]*)\""]
+  ],
+  "html-css-class-completion.enableEmmetSupport": true,
+  "html-css-class-completion.CSSLanguages": ["css", "sass", "scss"],
+  "html-css-class-completion.JavaScriptLanguages": [
+    "javascript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "tailwindCSS.lint.invalidApply": "ignore",
+  "tailwindCSS.lint.invalidTailwindDirective": "ignore",
+  "tailwindCSS.lint.invalidVariant": "ignore",
+  "tailwindCSS.lint.invalidScreen": "ignore",
+  "workbench.iconTheme": "helium-icon-theme",
+  "cleanImports.enableOnSave": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always",
+    "source.fixAll": "always"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "emmet.includeLanguages": {
+    "\"javascript\"": "\"javascriptreact\"",
+    "\"typescript\"": "\"typescriptreact\""
+  },"replace-on-save": {
+  "enabled": true,
+  "replacements": [
+    {
+      "languageIdentifiers": ["plaintext"],
+      "rules": [
+        {
+          "search": "dog", // This can be a valid javascript regular expression
+          "replace": "cat"
+        },
+        {
+          "search": "duck",
+          "replace": "chicken"
+        }
+      ]
+    },
+    {
+      "languageIdentifiers": ["javascriptreact", "jsx"],
+      "rules": [
+        {
+          "search": "class=\"",
+          "replace": "className=\""
+        }
+      ]
+    }
+  ]
+}
+
+}
